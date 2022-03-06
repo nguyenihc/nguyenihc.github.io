@@ -1,0 +1,178 @@
+
+a {
+    text-decoration: none; 
+    color: #000000;
+}
+a:hover {
+    color: #92999C;
+    text-decoration: underline wavy;
+}
+
+body {
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 50%;
+}
+
+h1 {
+    font-weight: 250;
+}
+
+nav a {
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    font-size: 125%;
+}
+
+nav {
+    padding: 0.5em;
+
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.content {
+    margin: 30px 0 0 0;
+    display: block;
+    padding: 5%;
+    border: solid 1px;
+    min-width: 200px;
+}
+
+.content p {
+    display: block;
+    float: left;
+    width: 48%;
+    min-width: 200px;
+    padding: 1%;
+}
+
+
+.info a {
+    color:#92999C;
+    text-decoration: underline wavy;
+}
+
+.content::after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content a:active{
+    font-style: italic bold;
+}
+.grid img {
+    width: 31%;
+    float: left;
+    padding: 1%;
+    min-width: 125px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+}
+
+video{
+    width: 100%;
+}
+
+.currentLink {
+    font-style: italic;
+    font-size: 110%;
+}
+
+form {
+    text-align: center;
+}
+
+input[value^="Send"] {
+    font-family: Baskerville, serif;
+}
+
+footer{
+    text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+button {
+    font-family: inherit;
+}
+#myBtn {
+  width: 250px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 25px;
+    border-color: white;
+  background: #f1f1f1;
+  color: black;
+  cursor: pointer;
+    font-family: font-family: Baskerville, 'Times New Roman', Times, serif;
+}
+
+#myBtn:hover {
+  background: black;
+  color: #f1f1f1;
+}
+
+.videoheader a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.videoheader {
+  position: fixed;
+  top: 0;
+    color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+    margin-left: -8px;
+}
+
+
+.videoheader h1 {
+        text-align: center;
+
+
+}
+
+
+.videocontent {
+  position: fixed;
+  bottom: 60px;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+    margin-left: -8px;
+    text-align: center;
+}
+
