@@ -55,9 +55,22 @@ nav {
 .content p {
     display: block;
     float: left;
-    width: 48%;
+    width: 49.95%;
     min-width: 200px;
-    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.content-part p {
+    display: block;
+    float: left;
+    width: 49.95%;
+    min-width: 200px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
 }
 
 
@@ -80,6 +93,13 @@ nav {
 .content a:active{
     font-style: italic bold;
 }
+
+hr {
+    clear: left; 
+    margin-bottom: 5%;
+    
+}
+
 .grid img {
     width: 31%;
     float: left;
