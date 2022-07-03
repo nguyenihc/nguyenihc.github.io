@@ -11,11 +11,11 @@ a:hover {
     text-decoration: none;
 }
 
-a:visited {
-}
+
 
 body {
     font-family: Baskerville, 'Times New Roman', Times, serif;
+    //'Rubik', sans-serif; 
 
 }
 
@@ -24,7 +24,7 @@ header {
 }
 
 header img {
-    width: 40%;
+    width: 30%;
 }
 
 h1 {
@@ -47,15 +47,24 @@ nav {
 
 }
 
+.currentLink {
+    font-style: italic;
+    font-size: 105%;
+    background-color: #3B5E34;
+   letter-spacing: 1.5px;
+    color: white;
+
+}
+
 .container {
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 
 .content {
     margin: 30px 0 0 0;
     display: block;
-    padding: 5%;
+    padding: 3%;
     border: solid 1px;
     min-width: 200px;
 }
@@ -63,28 +72,39 @@ nav {
 .content p {
     display: block;
     float: left;
-    width: 49.95%;
+    width: 25%;
     min-width: 200px;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 0 1%; // bottom left right top
 }
 
 .content a:hover{
+    font-style: italic;
+    font-size: 105%;
     background-color: #3B5E34;
+   letter-spacing: 1.5px;
     color: white;
 }
 
 .content-part p {
     display: block;
     float: left;
-    width: 49.95%;
+    width: 25%;
     min-width: 200px;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 0 1% 1% 1%;
+
 
 }
+
+.content-story p {
+    display: block;
+    float: left;
+    width: 33%;
+    min-width: 200px;
+    padding: 0 3%;
+
+
+}
+
 
 
 .info a {
@@ -103,9 +123,6 @@ nav {
     width: 100%;
 }
 
-.content a:active{
-    font-style: italic bold;
-}
 
 hr {
     clear: left; 
@@ -129,14 +146,7 @@ video{
     width: 100%;
 }
 
-.currentLink {
-    font-style: italic;
-    font-size: 105%;
-    background-color: #3B5E34;
-   letter-spacing: 1.5px;
-    color: white;
 
-}
 
 
 form {
@@ -175,7 +185,7 @@ button {
   background: #f1f1f1;
   color: black;
   cursor: pointer;
-    font-family: Baskerville, 'Times New Roman', Times, serif;
+font-family: inherit;
 }
 
 #myBtn:hover {
