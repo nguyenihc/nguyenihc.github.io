@@ -14,8 +14,7 @@ a:hover {
 
 
 body {
-    font-family: Baskerville, 'Times New Roman', Times, serif;
-    //'Rubik', sans-serif; 
+    font-family: Baskerville, 'Times New Roman', Times, serif, 'Rubik', sans-serif; 
 
 }
 
@@ -69,11 +68,8 @@ nav {
 }
 
 .content p {
-    display: block;
-    float: left;
-    width: 25%;
     min-width: 300px;
-    padding: 0 1%; // bottom left right top
+    padding: 0 1%; 
 }
 
 .content a:hover{
@@ -84,23 +80,9 @@ nav {
     color: white;
 }
 
-.content-part p {
-    display: block;
-    float: left;
-    width: 25%;
-    min-width: 300px;
-    padding: 0 2% 2% 2%;
-
-
-}
-
-.content-story p {
-    display: block;
-    float: left;
-    width: 33%;
-    min-width: 300px;
+.flex-container div {
     padding: 0 3%;
-
+    min-width: 250px;
 
 }
 
@@ -224,3 +206,34 @@ font-family: inherit;
 }
 
 
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media screen and (min-width: 550px){
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+.three-col-item {
+  padding: 10px;
+  flex: 33%;
+    }  
+    
+.two-col-item {
+  padding: 10px;
+  flex: 50%;
+    }  
+    
+.four-col-item {
+  padding: 10px;
+  flex: 25%; 
+    }
+    
+}
