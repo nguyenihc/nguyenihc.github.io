@@ -14,7 +14,7 @@ a:hover {
 
 
 body {
-    font-family: Baskerville, 'Times New Roman', Times, serif, 'Rubik', sans-serif; 
+    font-family: Baskerville, 'Libre Baskerville', 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', Times, serif; 
 
 }
 
@@ -109,13 +109,6 @@ hr {
     clear: left; 
     margin-bottom: 5%;
     
-}
-
-.grid img {
-    width: 31%;
-    float: left;
-    padding: 1%;
-    min-width: 125px;
 }
 
 textarea {
