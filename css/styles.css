@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Classico';
-    src: url('css/fonts/Classico New/Other Font Files/ClassicoBold.woff2') format('woff2'),
-        url('css/fonts/Classico New/Other Font Files/ClassicoBold.woff') format('woff'),
-        url('css/fonts/Classico New/Other Font Files/ClassicoBold.ttf') format('truetype'),
-        url('css/fonts/Classico New/Other Font Files/ClassicoBold.svg#ClassicoBold') format('svg');
+    src: url('fonts/Classico New/Other Font Files/ClassicoBold.woff2') format('woff2'),
+        url('fonts/Classico New/Other Font Files/ClassicoBold.woff') format('woff'),
+        url('fonts/Classico New/Other Font Files/ClassicoBold.ttf') format('truetype'),
+        url('fonts/Classico New/Other Font Files/ClassicoBold.svg#ClassicoBold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -11,10 +11,10 @@
 
 @font-face {
     font-family: 'Classico';
-    src: url('css/fonts/Classico New/Other Font Files/ClassicoRegular.woff2') format('woff2'),
-        url('css/fonts/Classico New/Other Font Files/ClassicoRegular.woff') format('woff'),
-        url('css/fonts/Classico New/Other Font Files/ClassicoRegular.ttf') format('truetype'),
-        url('css/fonts/Classico New/Other Font Files/ClassicoRegular.svg#ClassicoRegular') format('svg');
+    src: url('fonts/Classico New/Other Font Files/ClassicoRegular.woff2') format('woff2'),
+        url('fonts/Classico New/Other Font Files/ClassicoRegular.woff') format('woff'),
+        url('fonts/Classico New/Other Font Files/ClassicoRegular.ttf') format('truetype'),
+        url('fonts/Classico New/Other Font Files/ClassicoRegular.svg#ClassicoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -33,7 +33,7 @@ a:hover {
 }
 
 h1, nav, footer {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif",serif;
+	font-family: Classico;
 }
 
 body {
